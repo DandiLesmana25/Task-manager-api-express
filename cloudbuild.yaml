@@ -15,7 +15,7 @@
     - '--image'
     - 'gcr.io/$PROJECT_ID/backend-service:$COMMIT_SHA'
     - '--region'
-    - 'asia-southeast2'
+    - 'asia-east1'
     - '--allow-unauthenticated'
   images:
   - 'gcr.io/$PROJECT_ID/backend-service:$COMMIT_SHA'
