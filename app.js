@@ -3,9 +3,7 @@ const app = express();
 const tasks = require('./routes/task')
 const connectDB = require('./db/connections')
 require('dotenv').config()
-// const bp = require('body-parser')
-// app.use(bp.json())
-// app.use(bp.urlencoded({ extended: true }))
+const notFound = require('./middleware/not-found')
 
 // middleware
 app.use(express.static('./public'))
@@ -15,6 +13,8 @@ app.use(express.json())
 // Routes
 app.use('/api/v1/tasks', tasks)
 
+// middleware 404
+app.use(notFound);
 
 const port = 3000;
 const start = async () => {
