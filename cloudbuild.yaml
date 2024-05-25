@@ -17,7 +17,7 @@
     - '--region'
     - 'asia-southeast2'
     - '--platform'
-     - 'managed'
+    - 'managed'
     - '--allow-unauthenticated'
   images:
   - 'gcr.io/$PROJECT_ID/backend-service:$COMMIT_SHA'
