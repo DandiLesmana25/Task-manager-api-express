@@ -1,0 +1,9 @@
+Add a connection IP address
+Your current IP address (114.10.69.71) has been added to enable local connectivity. Add another later in 
+Network Access
+.
+Create a database user
+A database user has been added to this project. Create another user later in 
+Database Access
+.
+You'll need your database user's credentials in the next step.
